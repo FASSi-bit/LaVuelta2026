@@ -1,0 +1,136 @@
+/* **************************************************/
+/*                    LaVuelta2026                  */
+/*                 Estilos generales                */
+/* **************************************************/
+/*                 DATOS ESTUDIANTE                 */
+/* -------------------------------------------------*/
+/*  Nombre y Apellidos: Fabián Cofiño Vega          */
+/*  Correo electrónico (uniovi): UO306284@uniovi.es */
+/*  Grupo de laboratorio: L10                       */
+/* **************************************************/
+
+
+/*Especifidad 0,0,2*/
+section:has(picture){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*Especifidad 0,0,3*/
+section:has(picture) h3{
+    flex-basis: 100%;
+}
+
+/*Especifidad 0,0,3*/
+section:has(picture) ul{
+    order: 2;
+    list-style-type: none;
+}
+
+/*Especifidad 0,0,3*/
+section:has(picture) picture{
+    order: 1;
+}
+/*Especifidad 0,0,2*/
+
+section:has(video,audio) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*Especifidad 0,0,3*/
+section:has(article + article){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items:center;
+    align-items: center;
+    gap: 1em;
+}
+/*Especifidad 0,0,4*/
+section:has(article + article) h3{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+/*Especifidad 0,0,1*/
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:"cabecera" "migas" "contenido" "pie" ;
+    grid-template-rows: auto auto 1fr auto;
+    margin: 0%;
+}
+
+/*Especifidad 001*/
+header {
+    grid-area: cabecera;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+/*Especifidad 001*/
+header + nav {
+    grid-area: migas;
+}
+
+/*Especifidad 001*/
+main {
+    grid-area: contenido;
+}
+
+/*Especifidad 001*/
+footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1024px) {
+
+   /*Especifidad 003*/
+    section:has(article + article) {
+        grid-template-columns: repeat(2, 1fr); /*Advertencia redefinicion por media query*/
+    }
+
+    /*Especifidad 001*/
+    header {
+        flex-direction: column;
+        align-items: center;  /*Advertencia redefinicion por media query*/
+    }
+
+   /*Especifidad 003*/
+    header nav ul { 
+        display: flex;
+        justify-content: space-around; 
+        width: 100%;
+        padding: 0;
+        list-style: none;
+    }
+
+    /*Especifidad 002*/
+    header + nav {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    /*Especifidad 002*/
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /*Advertencia redefinicion por media query*/
+    }
+    
+    /*Especifidad 003*/
+    section:has(article + article) {
+        grid-template-columns: repeat(1, 1fr); /*Advertencia redefinicion por media query*/
+    }
+    
+}

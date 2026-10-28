@@ -1,0 +1,53 @@
+<!ELEMENT etapa (nombre,numero,longitud-etapa,fecha,tiempo-ganador,velocidad-ganador,desnivel,ciudad-inicio,ciudad-meta,tipo,referencias,fotos,videos,podcasts,lugar-salida,lugar-meta,hitos,puntos-anon,clasificados-etapa,clasificados-general,equipos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT longitud-etapa (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempo-ganador (#PCDATA)>
+<!ELEMENT velocidad-ganador (#PCDATA)>
+<!ELEMENT desnivel (#PCDATA)>
+<!ELEMENT ciudad-inicio (#PCDATA)>
+<!ELEMENT ciudad-meta (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT podcasts (podcast+)>
+<!ELEMENT podcast (#PCDATA)>
+<!ELEMENT lugar-salida (longitud,latitud,altitud)>
+<!ELEMENT lugar-meta (longitud,latitud,altitud)>
+<!ELEMENT hitos (puerto-montaña*,sprint-bonificado*,sprint-intermedio*)>
+<!ELEMENT puerto-montaña (tipo-puerto,longitud,latitud,altitud,distancia-salida)>
+<!ELEMENT sprint-bonificado (longitud,latitud,altitud,distancia-salida)>
+<!ELEMENT sprint-intermedio (longitud,latitud,altitud,distancia-salida)>
+<!ELEMENT puntos-anon (punto-anon+)>
+<!ELEMENT punto-anon (nombre-punto?,longitud,latitud,altitud,distancia-salida)>
+<!ELEMENT clasificados-etapa (clasificado-etapa+)>
+<!ELEMENT clasificado-etapa (nombre-clasificado,equipo,tiempo-clasificado,diferencia-tiempo?)>
+<!ELEMENT clasificados-general (clasificado-general+)>
+<!ELEMENT clasificado-general (nombre-clasificado,equipo,tiempo-clasificado,diferencia-tiempo?)>
+<!ELEMENT equipos (equipo-clasificacion+)>
+<!ELEMENT equipo-clasificacion (nombre-equipo,tiempo-equipo,diferencia-tiempo?)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT distancia-salida (#PCDATA)>
+<!ELEMENT nombre-punto (#PCDATA)>
+<!ELEMENT tipo-puerto (#PCDATA)>
+<!ELEMENT nombre-clasificado (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT tiempo-clasificado (#PCDATA)>
+<!ELEMENT diferencia-tiempo (#PCDATA)>
+<!ELEMENT nombre-equipo (#PCDATA)>
+<!ELEMENT tiempo-equipo (#PCDATA)>
+
+<!ATTLIST longitud unidades CDATA #REQUIRED>
+<!ATTLIST latitud unidades CDATA #REQUIRED>
+<!ATTLIST altitud unidades CDATA #REQUIRED>
+<!ATTLIST longitud-etapa unidades CDATA #REQUIRED>
+<!ATTLIST velocidad-ganador unidades CDATA #REQUIRED>
+<!ATTLIST desnivel unidades CDATA #REQUIRED>
+<!ATTLIST distancia-salida unidades CDATA #REQUIRED>

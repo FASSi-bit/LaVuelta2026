@@ -1,0 +1,95 @@
+/* **************************************************/
+/*                    LaVuelta2026                  */
+/*                 Estilos generales                */
+/* **************************************************/
+/*                 DATOS ESTUDIANTE                 */
+/* -------------------------------------------------*/
+/*  Nombre y Apellidos: Fabián Cofiño Vega          */
+/*  Correo electrónico (uniovi): UO306284@uniovi.es */
+/*  Grupo de laboratorio: L10                       */
+/* **************************************************/
+
+/* Gama cromática
+Color principal #F4EAD4
+Contraste de 10.21:1 con color secundario
+Contraste de 18.23:1 con color negro
+
+Color secundario #58111A
+Contraste de 10.21:1 con color principal
+Contraste de 11.83:1 con color blanco
+*/
+
+/* Especifidad: 010 */
+:root{
+    --color-principal: #F4EAD4;
+    --color-secundario: #58111A;
+    --blanco: #FFFFFF;
+    --negro: #000000;
+}
+
+/* Especifidad: 001 */
+body{
+  font-family: 'Trebuchet MS', Tahoma, sans-serif;
+  background-color: var(--blanco);
+  color: var(--negro);
+}
+
+/* Especifidad: 001, 001 */
+header, footer {
+  background-color: var(--color-secundario);
+  color: var(--blanco); 
+}
+
+/* Especifidad: 001 */
+h1 {
+  color: var(--blanco);
+}
+/* Especifidad: 001, 001 */
+h2,h3{
+    color: var(--color-secundario)  /*ADVERTENCIA: color-principal de fondo heredado de body*/
+}
+
+/* Especifidad: 002,002 */
+header a, footer a {
+    color: var(--color-principal); /*ADVERTENCIA: color-principal de fondo heredado de header y footer*/
+    text-decoration: none;
+}
+/* Especifidad 011*/
+a[aria-current]{
+  color: var(--blanco);
+}
+
+/* Especifidad 003*/
+header + nav > ol{
+  font-size: 0.9em;
+  list-style: none;
+
+}
+/* Especifidad 004*/
+header + nav > ol > li{
+  display: inline;
+}
+/* Especifidad 013*/
+header + nav > ol > :last-child{
+  font-weight: bold;
+}
+
+/* Especifidad 014*/
+section:has(picture) ul li:first-child {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* Especifidad 014*/
+section:has(picture) ul li:nth-child(3) {
+  font-size: 1.2em;
+}
+/* Especifidad 014*/
+section:has(picture) ul li:nth-child(4) {
+  font-weight: bold;
+}
+
+/* Especifidad 001,001,001*/
+table, th, td {
+  border: 1px solid; 
+}
+

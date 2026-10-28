@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Fabián Cofiño Vega" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/favicon.ico"/>
+</head>
+
+<body>
+    <header>
+        <h1> <a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ciclista.html">Ciclista</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="etapa.html">Etapa</a>
+            <a href="meteorologia.html">Meteorología</a>
+            <a href="clasificaciones.html">Clasificaciones</a>
+            <a href="juegos.html" aria-current="page">Juegos</a>
+            <a href="ayuda.html">Ayuda</a>
+
+        </nav>
+    </header> 
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>>></li>
+            <li>Juegos</li>
+        </ol>
+    </nav>
+    <main>
+        <h2>Juegos</h2>
+        <h3>¿Conoces la etapa?</h3>
+        <p>Pon a prueba tus conocimietos sobre la etapa con este cuestionario de 10 preguntas</p>    
+        <form>
+            <fieldset>
+                <legend>Carrefour Granada -> Granada</legend>
+                <p>
+                    <label for="preg1">¿Cuál es el número de la etapa?</label>
+                    <input type="number" id="preg1" min="1" max="21"/>
+                </p>
+
+                <p>
+                    <label for="preg2">¿En qué fecha se celebró la etapa?</label>
+                    <input type="date" min="2026-08-22" max="2026-09-13" id="preg2"/>
+                </p>
+                <p>
+                    <label for="preg3">¿Cuál fue el lugar de salida de la etapa?</label>
+                    <select name="Opciones salida" id="preg3">
+                        <option value="1">Carrefour Granada</option>
+                        <option value="2">Jaén</option>
+                        <option value="3">Cartagena</option>
+                        <option value="4">La Calahorra</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="preg4">¿Cuál fue el lugar de meta de la etapa?</label>
+                    <select name="Selecione una opción" id="preg4">
+                        <option value="1">Sevilla</option>
+                        <option value="2">Collado del Alguacil</option>
+                        <option value="3">Jerez de la Frontera</option>
+                        <option value="4">Granada</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="preg5">¿De qué tipo era la etapa?</label>
+                    <label ><input type="radio" id="preg5" name="tipo-etapa"/>Llana</label>
+                    <label ><input type="radio" name="tipo-etapa"/>Media montaña</label>
+                    <label ><input type="radio" name="tipo-etapa"/>Montaña</label>
+                    <label ><input type="radio" name="tipo-etapa"/>Contrarreloj individual</label>
+                    <label ><input type="radio" name="tipo-etapa"/>Contrarreloj por equipos</label>
+                </p>
+                <p>
+                    <label for="preg6">¿Qué tipo de hitos había en la etapa?</label>
+                    <label ><input type="checkbox" id="preg6" name="hito"/>Puerto de montaña</label>
+                    <label ><input type="checkbox" name="hito"/>Puerto categoría especial</label>
+                    <label ><input type="checkbox" name="hito"/>Sprint intermedio</label>
+                    <label ><input type="checkbox" name="hito"/>Sprint bonificado</label>
+                    <label ><input type="checkbox" name="hito"/>Sin hitos</label>
+                </p>
+                <p>
+                    <label for="preg7">Valora la dureza de la etapa:</label>
+                    <input type="range" id="preg7" min="1" max="10" value="5" step="1" list="values"/>
+                    <datalist id="values">
+                        <option value="10" label="Difficult"></option>
+                        <option value="1" label="Easy"></option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="preg8">¿Cuál fue la longitud de la etapa (Km)?</label>
+                    <input type="number" id="preg8" min="9" max="202"/>
+                </p>
+                <p>
+                    <label for="preg9">¿Cuál fue el desnivel acumulado de la etapa (m)?</label>
+                    <input type="number" id="preg9" min="500" max="2000"/>
+                </p>
+                <p>
+                    <label for="preg10">Describa la etapa:</label>
+                    <input type="text" size="100" id="preg10"/>
+                </p>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form> 
+    </main>
+
+    <footer>
+        <p>Fabián Cofiño Vega</p>
+        <address><a href="mailto:UO306284@uniovi.es">UO306284@uniovi.es</a></address>
+    </footer>
+
+</body>
+</html>

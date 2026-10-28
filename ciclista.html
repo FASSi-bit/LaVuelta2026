@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Fabián Cofiño Vega" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/favicon.ico"/>
+</head>
+
+<body>
+   <header>
+        <h1> <a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ciclista.html" aria-current="page">Ciclista</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="etapa.html">Etapa</a>
+            <a href="meteorologia.html">Meteorología</a>
+            <a href="clasificaciones.html">Clasificaciones</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+    <main>
+        <h2>Andreas Kron</h2>
+
+        <section>
+            <h3>Datos personales</h3>
+            <ul>
+                <li>Nombre completo: Andreas Lorentz Kron</li>
+                <li>Fecha de nacimiento: 1/06/1998 </li>
+                <li>Pais de nacimiento: Dinamarca</li>
+                <li>Equipo: Uno-X Mobility</li>
+                <li>Dorsal: 135</li>
+            </ul>
+            <picture>
+                <source srcset="multimedia/akronmovil.png" media="(max-width:768px)" width="210" height="198"/>
+                
+                <source srcset="multimedia/akronTablet.png" media="(max-width:1024px)" width="249" height="297"/>
+
+                <img src="multimedia/akron.png" alt="Foto de Andreas Kron"/>   
+            </picture>
+            
+        </section>
+        <section>
+            <h3>Datos equipos</h3>
+            <ol>
+                <li>Uno-X Mobility</li>
+                <li>Lotto Dstny</li>
+                <li>Lotto Soudal</li>
+                <li>Riwal Readynez Cycling Team</li>
+                <li>Riwal CeramicSpeed Cycling Team</li>
+                <li> Riwal Platform Cycling Team</li>
+                <li>Team Pythonpro.com-VeloWear</li>
+                <li>DCR Ballerup Junior</li>
+            </ol>
+        </section>
+        <section>
+            <h3>Temporada 2025</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" id="nombreDato">Nombre del Dato</th>
+                        <th scope="col" id="valorDato">Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="nombreDato">Etapas participadas</td>
+                        <td headers="valorDato"> 8</td>
+                    </tr>
+                    <tr>
+                        <td headers="nombreDato">Victorias Totales</td>
+                        <td headers="valorDato"> 9</td>
+                    </tr>
+                    <tr>
+                        <td headers="nombreDato">Podiums Totales</td>
+                        <td headers="valorDato"> 19</td>
+                    </tr>
+                    <tr>
+                        <td headers="nombreDato">Kilometros recorridos</td>
+                        <td headers="valorDato"> 3000</td>
+                    </tr>
+                    <tr>
+                        <td headers="nombreDato">Sprints ganados</td>
+                        <td headers="valorDato"> 15 </td>
+                    </tr>
+                    <tr>
+                        <td headers="nombreDato">Años Compitiendo</td>
+                        <td headers="valorDato"> 10</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+        <section>
+            <h3>Multimedia</h3>
+            <p>Equipo <a href="https://www.lavuelta.es/es/equipo/UXM/uno-x-mobility">Uno-X Mobility</a> en la Vuelta Ciclista a España 2026</p>
+            <video controls poster="multimedia/Uno-X-Mobility.png">
+                <source src="multimedia/presentacionEquipo.mp4" type="video/mp4"/>
+                <source src="multimedia/presentacionEquipo.webm" type="video/webm"/>
+
+            </video>
+
+            <audio controls>
+                <source src="multimedia/Uno-X-Mobility.mp3" type="audio/mpeg"/>
+                <source src="multimedia/Uno-X-Mobility.wav" type="audio/wav"/>
+            </audio>
+
+        </section>
+    </main>    
+
+    <footer>
+        <p>Fabián Cofiño Vega</p>
+        <address><a href="mailto:UO306284@uniovi.es">UO306284@uniovi.es</a></address>
+    </footer>
+</body>
+</html>
