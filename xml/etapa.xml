@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa PUBLIC "-//W3C//DTD XML 1.0//EN" "etapa.dtd">
+<etapa>
+    <nombre>Carrefour Granada - Granada</nombre>
+    <numero>21</numero>
+    <longitud-etapa unidades="kilómetros">112</longitud-etapa>
+    <fecha>13-09-2026</fecha>
+    <tiempo-ganador>03:07:09</tiempo-ganador>
+    <velocidad-ganador unidades="Km/h">35.9</velocidad-ganador>
+    <desnivel unidades="metros">1217</desnivel>
+    <ciudad-inicio>Carrefour Granada</ciudad-inicio>
+    <ciudad-meta>Granada</ciudad-meta>
+    <tipo>Llana</tipo>
+    <referencias>
+        <referencia>https://www.lavuelta.es/es/etapa-21</referencia>
+        <referencia>Libro de Ruta La Vuelta 2026</referencia>
+        <referencia>https://www.esciclismo.com/actualidad/carretera/93042.html</referencia>
+        <referencia>https://www.ivoox.com/vuelta-2026-etapa-21-audios-mp3_rf_180499626_1.html</referencia>
+    </referencias>
+    <fotos>
+        <foto>Foto-ganador-etapa.jpg</foto>
+        <foto>Entrada-ganador-general.jpg</foto>
+        <foto>Grupo-corredores.jpg</foto>
+    </fotos>
+    <videos>
+        <video>LastKm-Stage21_LaVuelta26.mp4</video>
+    </videos>
+    <podcasts>
+        <podcast>Podcast-oficial-LaVuelta2026.mp3</podcast>
+    </podcasts>
+    <!-- Coordenadas reales de Granada para la Salida y Meta -->
+    <lugar-salida>
+        <longitud unidades="grados">-3.6067</longitud>
+        <latitud unidades="grados">37.1648</latitud>
+        <altitud unidades="metros">685.0</altitud>
+    </lugar-salida>
+    <lugar-meta>
+        <longitud unidades="grados">-3.5986</longitud>
+        <latitud unidades="grados">37.1742</latitud>
+        <altitud unidades="metros">689.0</altitud>
+    </lugar-meta>
+    
+    <hitos>
+        <sprint-intermedio>
+            <longitud unidades="grados">-3.6001</longitud>
+            <latitud unidades="grados">37.1730</latitud>
+            <altitud unidades="metros">680.0</altitud>
+            <distancia-salida unidades="kilómetros">92.4</distancia-salida>
+        </sprint-intermedio>
+    </hitos>
+    <puntos-anon>
+        <!-- Puntos anonimos por definir-->
+        <punto-anon>
+            <longitud unidades="grados">-3.5852</longitud>
+            <latitud unidades="grados">37.1761</latitud>
+            <altitud unidades="metros">740.0</altitud>
+            <distancia-salida unidades="kilómetros">10.0</distancia-salida>
+        </punto-anon>
+    </puntos-anon>
+
+    <!-- Clasificación real de la Etapa 21 (Ganador: Tobias Halland Johannessen) -->
+    <clasificados-etapa>
+        <clasificado-etapa>
+            <nombre-clasificado>Tobias Halland Johannessen</nombre-clasificado>
+            <equipo>Uno-X Mobility</equipo>
+            <tiempo-clasificado>03:07:09</tiempo-clasificado>
+        </clasificado-etapa>
+        <clasificado-etapa>
+            <nombre-clasificado>Kaden Groves</nombre-clasificado>
+            <equipo>Alpecin-Deceuninck</equipo>
+            <tiempo-clasificado>03:07:09</tiempo-clasificado>
+            <diferencia-tiempo>00:00:00</diferencia-tiempo>
+        </clasificado-etapa>
+        <clasificado-etapa>
+            <nombre-clasificado>Bryan Coquard</nombre-clasificado>
+            <equipo>Cofidis</equipo>
+            <tiempo-clasificado>03:07:09</tiempo-clasificado>
+            <diferencia-tiempo>00:00:00</diferencia-tiempo>
+        </clasificado-etapa>
+    </clasificados-etapa>
+
+    <!-- Clasificación General Final de La Vuelta 2026 (Podio definitivo) -->
+    <clasificados-general>
+        <clasificado-general>
+            <nombre-clasificado>Enric Mas</nombre-clasificado>
+            <equipo>Movistar Team</equipo>
+            <tiempo-clasificado>82:44:15</tiempo-clasificado> <!-- Tiempo total aproximado de la general -->
+        </clasificado-general>
+        <clasificado-general>
+            <nombre-clasificado>Primož Roglič</nombre-clasificado>
+            <equipo>Red Bull-BORA-hansgrohe</equipo>
+            <tiempo-clasificado>82:45:21</tiempo-clasificado>
+            <diferencia-tiempo>00:01:06</diferencia-tiempo>
+        </clasificado-general>
+        <clasificado-general>
+            <nombre-clasificado>Felix Gall</nombre-clasificado>
+            <equipo>Decathlon AG2R La Mondiale</equipo>
+            <tiempo-clasificado>82:46:28</tiempo-clasificado>
+            <diferencia-tiempo>00:02:13</diferencia-tiempo>
+        </clasificado-general>
+    </clasificados-general>
+
+    <!-- Clasificación por Equipos Final -->
+    <equipos>
+        <equipo-clasificacion>
+            <nombre-equipo>Decathlon AG2R La Mondiale</nombre-equipo>
+            <tiempo-equipo>247:35:12</tiempo-equipo>
+        </equipo-clasificacion>
+        <equipo-clasificacion>
+            <nombre-equipo>Movistar Team</nombre-equipo>
+            <tiempo-equipo>247:41:20</tiempo-equipo>
+            <diferencia-tiempo>00:06:08</diferencia-tiempo>
+        </equipo-clasificacion>
+        <equipo-clasificacion>
+            <nombre-equipo>Red Bull-BORA-hansgrohe</nombre-equipo>
+            <tiempo-equipo>247:48:45</tiempo-equipo>
+            <diferencia-tiempo>00:13:33</diferencia-tiempo>
+        </equipo-clasificacion>
+    </equipos>
+
+</etapa>

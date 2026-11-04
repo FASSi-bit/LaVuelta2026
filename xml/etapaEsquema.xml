@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapa xmlns="http://www.uniovi.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+    <nombre>Carrefour Granada - Granada</nombre>
+    <numero>21</numero>
+    <longitud-etapa unidades="kilómetros">112</longitud-etapa>
+    <fecha>2026-09-13</fecha>
+    <tiempo-ganador>PT03H07M09S</tiempo-ganador>
+    <velocidad-ganador unidades="Km/h">35.9</velocidad-ganador>
+    <desnivel unidades="metros">1217</desnivel>
+    <ciudad-inicio>Carrefour Granada</ciudad-inicio>
+    <ciudad-meta>Granada</ciudad-meta>
+    <tipo>Llana</tipo>
+    <referencias>
+        <referencia>https://www.lavuelta.es/es/etapa-21</referencia>
+        <referencia>Libro de Ruta La Vuelta 2026</referencia>
+        <referencia>https://www.esciclismo.com/actualidad/carretera/93042.html</referencia>
+        <referencia>https://www.ivoox.com/vuelta-2026-etapa-21-audios-mp3_rf_180499626_1.html</referencia>
+    </referencias>
+    <fotos>
+        <foto>Foto-ganador-etapa.jpg</foto>
+        <foto>Entrada-ganador-general.jpg</foto>
+        <foto>Grupo-corredores.jpg</foto>
+    </fotos>
+    <videos>
+        <video>LastKm-Stage21_LaVuelta26.mp4</video>
+    </videos>
+    <podcasts>
+        <podcast>Podcast-oficial-LaVuelta2026.mp3</podcast>
+    </podcasts>
+    <!-- Coordenadas reales de Granada para la Salida y Meta -->
+    <lugar-salida>
+        <longitud unidades="grados">-3.6079</longitud>
+        <latitud unidades="grados">37.1550</latitud>
+        <altitud unidades="metros">664.0</altitud>
+    </lugar-salida>
+    <lugar-meta>
+        <longitud unidades="grados">-3.5931</longitud>
+        <latitud unidades="grados">37.1698</latitud>
+        <altitud unidades="metros">670.6</altitud>
+    </lugar-meta>
+    
+    <hitos>
+        <sprint-intermedio>
+            <longitud unidades="grados">-3.5942</longitud>
+            <latitud unidades="grados">37.1697</latitud>
+            <altitud unidades="metros">669.0</altitud>
+            <distancia-salida unidades="kilómetros">92.4</distancia-salida>
+        </sprint-intermedio>
+    </hitos>
+    
+    <puntos-anon>
+        <punto-anon>
+            <nombre-punto>Salida Vuelta</nombre-punto>
+            <longitud unidades="grados">-3.6079</longitud>
+            <latitud unidades="grados">37.1550</latitud>
+            <altitud unidades="metros">664.0</altitud>
+            <distancia-salida unidades="kilómetros">0.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6073</longitud>
+            <latitud unidades="grados">37.1546</latitud>
+            <altitud unidades="metros">664.0</altitud>
+            <distancia-salida unidades="kilómetros">0.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6074</longitud>
+            <latitud unidades="grados">37.1545</latitud>
+            <altitud unidades="metros">664.0</altitud>
+            <distancia-salida unidades="kilómetros">0.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6072</longitud>
+            <latitud unidades="grados">37.1543</latitud>
+            <altitud unidades="metros">664.0</altitud>
+            <distancia-salida unidades="kilómetros">0.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6068</longitud>
+            <latitud unidades="grados">37.1548</latitud>
+            <altitud unidades="metros">665.6</altitud>
+            <distancia-salida unidades="kilómetros">0.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6090</longitud>
+            <latitud unidades="grados">37.1560</latitud>
+            <altitud unidades="metros">662.3</altitud>
+            <distancia-salida unidades="kilómetros">0.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6096</longitud>
+            <latitud unidades="grados">37.1558</latitud>
+            <altitud unidades="metros">662.6</altitud>
+            <distancia-salida unidades="kilómetros">0.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6123</longitud>
+            <latitud unidades="grados">37.1532</latitud>
+            <altitud unidades="metros">663.0</altitud>
+            <distancia-salida unidades="kilómetros">0.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6125</longitud>
+            <latitud unidades="grados">37.1526</latitud>
+            <altitud unidades="metros">663.0</altitud>
+            <distancia-salida unidades="kilómetros">0.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6130</longitud>
+            <latitud unidades="grados">37.1524</latitud>
+            <altitud unidades="metros">663.4</altitud>
+            <distancia-salida unidades="kilómetros">0.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6107</longitud>
+            <latitud unidades="grados">37.1458</latitud>
+            <altitud unidades="metros">668.4</altitud>
+            <distancia-salida unidades="kilómetros">1.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6202</longitud>
+            <latitud unidades="grados">37.1383</latitud>
+            <altitud unidades="metros">675.0</altitud>
+            <distancia-salida unidades="kilómetros">2.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6355</longitud>
+            <latitud unidades="grados">37.1420</latitud>
+            <altitud unidades="metros">669.1</altitud>
+            <distancia-salida unidades="kilómetros">4.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6377</longitud>
+            <latitud unidades="grados">37.1418</latitud>
+            <altitud unidades="metros">669.4</altitud>
+            <distancia-salida unidades="kilómetros">4.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6398</longitud>
+            <latitud unidades="grados">37.1431</latitud>
+            <altitud unidades="metros">666.8</altitud>
+            <distancia-salida unidades="kilómetros">4.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6519</longitud>
+            <latitud unidades="grados">37.1467</latitud>
+            <altitud unidades="metros">657.0</altitud>
+            <distancia-salida unidades="kilómetros">6.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6518</longitud>
+            <latitud unidades="grados">37.1506</latitud>
+            <altitud unidades="metros">651.2</altitud>
+            <distancia-salida unidades="kilómetros">6.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6443</longitud>
+            <latitud unidades="grados">37.1511</latitud>
+            <altitud unidades="metros">650.0</altitud>
+            <distancia-salida unidades="kilómetros">7.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6306</longitud>
+            <latitud unidades="grados">37.1493</latitud>
+            <altitud unidades="metros">654.0</altitud>
+            <distancia-salida unidades="kilómetros">8.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6263</longitud>
+            <latitud unidades="grados">37.1499</latitud>
+            <altitud unidades="metros">656.0</altitud>
+            <distancia-salida unidades="kilómetros">8.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6217</longitud>
+            <latitud unidades="grados">37.1533</latitud>
+            <altitud unidades="metros">654.0</altitud>
+            <distancia-salida unidades="kilómetros">9.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6136</longitud>
+            <latitud unidades="grados">37.1532</latitud>
+            <altitud unidades="metros">661.6</altitud>
+            <distancia-salida unidades="kilómetros">10.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6105</longitud>
+            <latitud unidades="grados">37.1457</latitud>
+            <altitud unidades="metros">668.4</altitud>
+            <distancia-salida unidades="kilómetros">10.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6089</longitud>
+            <latitud unidades="grados">37.1464</latitud>
+            <altitud unidades="metros">670.0</altitud>
+            <distancia-salida unidades="kilómetros">11.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6080</longitud>
+            <latitud unidades="grados">37.1469</latitud>
+            <altitud unidades="metros">673.0</altitud>
+            <distancia-salida unidades="kilómetros">11.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6064</longitud>
+            <latitud unidades="grados">37.1449</latitud>
+            <altitud unidades="metros">675.0</altitud>
+            <distancia-salida unidades="kilómetros">11.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6043</longitud>
+            <latitud unidades="grados">37.1449</latitud>
+            <altitud unidades="metros">676.5</altitud>
+            <distancia-salida unidades="kilómetros">11.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6025</longitud>
+            <latitud unidades="grados">37.1462</latitud>
+            <altitud unidades="metros">678.0</altitud>
+            <distancia-salida unidades="kilómetros">11.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5986</longitud>
+            <latitud unidades="grados">37.1479</latitud>
+            <altitud unidades="metros">680.0</altitud>
+            <distancia-salida unidades="kilómetros">12.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5966</longitud>
+            <latitud unidades="grados">37.1507</latitud>
+            <altitud unidades="metros">680.0</altitud>
+            <distancia-salida unidades="kilómetros">12.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5924</longitud>
+            <latitud unidades="grados">37.1529</latitud>
+            <altitud unidades="metros">684.0</altitud>
+            <distancia-salida unidades="kilómetros">13.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5914</longitud>
+            <latitud unidades="grados">37.1484</latitud>
+            <altitud unidades="metros">688.9</altitud>
+            <distancia-salida unidades="kilómetros">13.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5838</longitud>
+            <latitud unidades="grados">37.1464</latitud>
+            <altitud unidades="metros">699.9</altitud>
+            <distancia-salida unidades="kilómetros">14.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5790</longitud>
+            <latitud unidades="grados">37.1453</latitud>
+            <altitud unidades="metros">709.5</altitud>
+            <distancia-salida unidades="kilómetros">14.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5766</longitud>
+            <latitud unidades="grados">37.1469</latitud>
+            <altitud unidades="metros">718.2</altitud>
+            <distancia-salida unidades="kilómetros">15.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Huétor Vega</nombre-punto>
+            <longitud unidades="grados">-3.5726</longitud>
+            <latitud unidades="grados">37.1452</latitud>
+            <altitud unidades="metros">722.4</altitud>
+            <distancia-salida unidades="kilómetros">15.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5694</longitud>
+            <latitud unidades="grados">37.1414</latitud>
+            <altitud unidades="metros">727.1</altitud>
+            <distancia-salida unidades="kilómetros">16.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5708</longitud>
+            <latitud unidades="grados">37.1387</latitud>
+            <altitud unidades="metros">725.4</altitud>
+            <distancia-salida unidades="kilómetros">16.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5677</longitud>
+            <latitud unidades="grados">37.1351</latitud>
+            <altitud unidades="metros">734.9</altitud>
+            <distancia-salida unidades="kilómetros">16.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Cájar</nombre-punto>
+            <longitud unidades="grados">-3.5716</longitud>
+            <latitud unidades="grados">37.1304</latitud>
+            <altitud unidades="metros">736.4</altitud>
+            <distancia-salida unidades="kilómetros">17.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5843</longitud>
+            <latitud unidades="grados">37.1196</latitud>
+            <altitud unidades="metros">747.9</altitud>
+            <distancia-salida unidades="kilómetros">18.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6020</longitud>
+            <latitud unidades="grados">37.1097</latitud>
+            <altitud unidades="metros">771.4</altitud>
+            <distancia-salida unidades="kilómetros">20.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Ogíjares</nombre-punto>
+            <longitud unidades="grados">-3.6049</longitud>
+            <latitud unidades="grados">37.1228</latitud>
+            <altitud unidades="metros">715.2</altitud>
+            <distancia-salida unidades="kilómetros">22.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6093</longitud>
+            <latitud unidades="grados">37.1187</latitud>
+            <altitud unidades="metros">721.3</altitud>
+            <distancia-salida unidades="kilómetros">22.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6142</longitud>
+            <latitud unidades="grados">37.1146</latitud>
+            <altitud unidades="metros">742.5</altitud>
+            <distancia-salida unidades="kilómetros">23.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6191</longitud>
+            <latitud unidades="grados">37.1127</latitud>
+            <altitud unidades="metros">758.2</altitud>
+            <distancia-salida unidades="kilómetros">23.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6154</longitud>
+            <latitud unidades="grados">37.1086</latitud>
+            <altitud unidades="metros">758.8</altitud>
+            <distancia-salida unidades="kilómetros">24.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6046</longitud>
+            <latitud unidades="grados">37.1053</latitud>
+            <altitud unidades="metros">791.4</altitud>
+            <distancia-salida unidades="kilómetros">25.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Gójar</nombre-punto>
+            <longitud unidades="grados">-3.6040</longitud>
+            <latitud unidades="grados">37.1064</latitud>
+            <altitud unidades="metros">795.6</altitud>
+            <distancia-salida unidades="kilómetros">25.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6036</longitud>
+            <latitud unidades="grados">37.0987</latitud>
+            <altitud unidades="metros">806.7</altitud>
+            <distancia-salida unidades="kilómetros">26.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6052</longitud>
+            <latitud unidades="grados">37.0942</latitud>
+            <altitud unidades="metros">825.3</altitud>
+            <distancia-salida unidades="kilómetros">27.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6050</longitud>
+            <latitud unidades="grados">37.0934</latitud>
+            <altitud unidades="metros">823.1</altitud>
+            <distancia-salida unidades="kilómetros">27.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6063</longitud>
+            <latitud unidades="grados">37.0927</latitud>
+            <altitud unidades="metros">821.3</altitud>
+            <distancia-salida unidades="kilómetros">27.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6079</longitud>
+            <latitud unidades="grados">37.0889</latitud>
+            <altitud unidades="metros">803.8</altitud>
+            <distancia-salida unidades="kilómetros">27.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6036</longitud>
+            <latitud unidades="grados">37.0815</latitud>
+            <altitud unidades="metros">803.8</altitud>
+            <distancia-salida unidades="kilómetros">28.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6053</longitud>
+            <latitud unidades="grados">37.0764</latitud>
+            <altitud unidades="metros">843.0</altitud>
+            <distancia-salida unidades="kilómetros">29.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6059</longitud>
+            <latitud unidades="grados">37.0785</latitud>
+            <altitud unidades="metros">850.3</altitud>
+            <distancia-salida unidades="kilómetros">29.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6166</longitud>
+            <latitud unidades="grados">37.0860</latitud>
+            <altitud unidades="metros">815.4</altitud>
+            <distancia-salida unidades="kilómetros">30.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Otura</nombre-punto>
+            <longitud unidades="grados">-3.6345</longitud>
+            <latitud unidades="grados">37.0913</latitud>
+            <altitud unidades="metros">787.2</altitud>
+            <distancia-salida unidades="kilómetros">32.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6474</longitud>
+            <latitud unidades="grados">37.0849</latitud>
+            <altitud unidades="metros">766.0</altitud>
+            <distancia-salida unidades="kilómetros">33.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6483</longitud>
+            <latitud unidades="grados">37.0988</latitud>
+            <altitud unidades="metros">741.5</altitud>
+            <distancia-salida unidades="kilómetros">35.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6456</longitud>
+            <latitud unidades="grados">37.1003</latitud>
+            <altitud unidades="metros">738.0</altitud>
+            <distancia-salida unidades="kilómetros">35.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Alhendín</nombre-punto>
+            <longitud unidades="grados">-3.6438</longitud>
+            <latitud unidades="grados">37.1057</latitud>
+            <altitud unidades="metros">740.3</altitud>
+            <distancia-salida unidades="kilómetros">36.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6338</longitud>
+            <latitud unidades="grados">37.1166</latitud>
+            <altitud unidades="metros">720.6</altitud>
+            <distancia-salida unidades="kilómetros">37.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6567</longitud>
+            <latitud unidades="grados">37.1335</latitud>
+            <altitud unidades="metros">677.0</altitud>
+            <distancia-salida unidades="kilómetros">40.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6591</longitud>
+            <latitud unidades="grados">37.1288</latitud>
+            <altitud unidades="metros">685.3</altitud>
+            <distancia-salida unidades="kilómetros">41.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6661</longitud>
+            <latitud unidades="grados">37.1335</latitud>
+            <altitud unidades="metros">678.3</altitud>
+            <distancia-salida unidades="kilómetros">41.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6681</longitud>
+            <latitud unidades="grados">37.1333</latitud>
+            <altitud unidades="metros">682.0</altitud>
+            <distancia-salida unidades="kilómetros">42.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Las Gabias</nombre-punto>
+            <longitud unidades="grados">-3.6694</longitud>
+            <latitud unidades="grados">37.1346</latitud>
+            <altitud unidades="metros">688.3</altitud>
+            <distancia-salida unidades="kilómetros">42.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6672</longitud>
+            <latitud unidades="grados">37.1367</latitud>
+            <altitud unidades="metros">674.9</altitud>
+            <distancia-salida unidades="kilómetros">42.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6662</longitud>
+            <latitud unidades="grados">37.1364</latitud>
+            <altitud unidades="metros">672.9</altitud>
+            <distancia-salida unidades="kilómetros">42.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6590</longitud>
+            <latitud unidades="grados">37.1377</latitud>
+            <altitud unidades="metros">671.9</altitud>
+            <distancia-salida unidades="kilómetros">43.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6557</longitud>
+            <latitud unidades="grados">37.1480</latitud>
+            <altitud unidades="metros">655.0</altitud>
+            <distancia-salida unidades="kilómetros">44.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Cúllar Vega</nombre-punto>
+            <longitud unidades="grados">-3.6675</longitud>
+            <latitud unidades="grados">37.1518</latitud>
+            <altitud unidades="metros">644.0</altitud>
+            <distancia-salida unidades="kilómetros">45.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6734</longitud>
+            <latitud unidades="grados">37.1570</latitud>
+            <altitud unidades="metros">635.7</altitud>
+            <distancia-salida unidades="kilómetros">46.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6737</longitud>
+            <latitud unidades="grados">37.1610</latitud>
+            <altitud unidades="metros">630.1</altitud>
+            <distancia-salida unidades="kilómetros">46.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6792</longitud>
+            <latitud unidades="grados">37.1608</latitud>
+            <altitud unidades="metros">628.6</altitud>
+            <distancia-salida unidades="kilómetros">47.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6803</longitud>
+            <latitud unidades="grados">37.1598</latitud>
+            <altitud unidades="metros">630.5</altitud>
+            <distancia-salida unidades="kilómetros">47.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>El Ventorrillo</nombre-punto>
+            <longitud unidades="grados">-3.6905</longitud>
+            <latitud unidades="grados">37.1607</latitud>
+            <altitud unidades="metros">632.3</altitud>
+            <distancia-salida unidades="kilómetros">48.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Belicena</nombre-punto>
+            <longitud unidades="grados">-3.6921</longitud>
+            <latitud unidades="grados">37.1709</latitud>
+            <altitud unidades="metros">610.4</altitud>
+            <distancia-salida unidades="kilómetros">49.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Santa Fe</nombre-punto>
+            <longitud unidades="grados">-3.7144</longitud>
+            <latitud unidades="grados">37.1906</latitud>
+            <altitud unidades="metros">580.0</altitud>
+            <distancia-salida unidades="kilómetros">52.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.7084</longitud>
+            <latitud unidades="grados">37.1923</latitud>
+            <altitud unidades="metros">582.8</altitud>
+            <distancia-salida unidades="kilómetros">52.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.7179</longitud>
+            <latitud unidades="grados">37.1927</latitud>
+            <altitud unidades="metros">579.0</altitud>
+            <distancia-salida unidades="kilómetros">53.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.7153</longitud>
+            <latitud unidades="grados">37.2087</latitud>
+            <altitud unidades="metros">574.9</altitud>
+            <distancia-salida unidades="kilómetros">55.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6978</longitud>
+            <latitud unidades="grados">37.2162</latitud>
+            <altitud unidades="metros">581.6</altitud>
+            <distancia-salida unidades="kilómetros">57.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Atarfe</nombre-punto>
+            <longitud unidades="grados">-3.6963</longitud>
+            <latitud unidades="grados">37.2182</latitud>
+            <altitud unidades="metros">584.0</altitud>
+            <distancia-salida unidades="kilómetros">57.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6687</longitud>
+            <latitud unidades="grados">37.2054</latitud>
+            <altitud unidades="metros">605.2</altitud>
+            <distancia-salida unidades="kilómetros">60.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6551</longitud>
+            <latitud unidades="grados">37.2037</latitud>
+            <altitud unidades="metros">615.2</altitud>
+            <distancia-salida unidades="kilómetros">61.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6481</longitud>
+            <latitud unidades="grados">37.1967</latitud>
+            <altitud unidades="metros">624.2</altitud>
+            <distancia-salida unidades="kilómetros">62.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6405</longitud>
+            <latitud unidades="grados">37.1978</latitud>
+            <altitud unidades="metros">636.0</altitud>
+            <distancia-salida unidades="kilómetros">63.0</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6146</longitud>
+            <latitud unidades="grados">37.1892</latitud>
+            <altitud unidades="metros">675.0</altitud>
+            <distancia-salida unidades="kilómetros">65.5</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6105</longitud>
+            <latitud unidades="grados">37.1778</latitud>
+            <altitud unidades="metros">659.0</altitud>
+            <distancia-salida unidades="kilómetros">66.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6046</longitud>
+            <latitud unidades="grados">37.1840</latitud>
+            <altitud unidades="metros">677.6</altitud>
+            <distancia-salida unidades="kilómetros">67.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6012</longitud>
+            <latitud unidades="grados">37.1824</latitud>
+            <altitud unidades="metros">682.0</altitud>
+            <distancia-salida unidades="kilómetros">68.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5975</longitud>
+            <latitud unidades="grados">37.1758</latitud>
+            <altitud unidades="metros">686.1</altitud>
+            <distancia-salida unidades="kilómetros">68.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5997</longitud>
+            <latitud unidades="grados">37.1734</latitud>
+            <altitud unidades="metros">677.7</altitud>
+            <distancia-salida unidades="kilómetros">69.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5968</longitud>
+            <latitud unidades="grados">37.1689</latitud>
+            <altitud unidades="metros">668.5</altitud>
+            <distancia-salida unidades="kilómetros">69.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5875</longitud>
+            <latitud unidades="grados">37.1687</latitud>
+            <altitud unidades="metros">688.7</altitud>
+            <distancia-salida unidades="kilómetros">70.7</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5897</longitud>
+            <latitud unidades="grados">37.1742</latitud>
+            <altitud unidades="metros">758.8</altitud>
+            <distancia-salida unidades="kilómetros">71.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5803</longitud>
+            <latitud unidades="grados">37.1713</latitud>
+            <altitud unidades="metros">820.8</altitud>
+            <distancia-salida unidades="kilómetros">72.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5831</longitud>
+            <latitud unidades="grados">37.1694</latitud>
+            <altitud unidades="metros">808.3</altitud>
+            <distancia-salida unidades="kilómetros">72.6</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5845</longitud>
+            <latitud unidades="grados">37.1699</latitud>
+            <altitud unidades="metros">801.1</altitud>
+            <distancia-salida unidades="kilómetros">72.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5833</longitud>
+            <latitud unidades="grados">37.1687</latitud>
+            <altitud unidades="metros">783.8</altitud>
+            <distancia-salida unidades="kilómetros">72.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5710</longitud>
+            <latitud unidades="grados">37.1628</latitud>
+            <altitud unidades="metros">702.5</altitud>
+            <distancia-salida unidades="kilómetros">74.2</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5889</longitud>
+            <latitud unidades="grados">37.1675</latitud>
+            <altitud unidades="metros">675.9</altitud>
+            <distancia-salida unidades="kilómetros">75.8</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5896</longitud>
+            <latitud unidades="grados">37.1671</latitud>
+            <altitud unidades="metros">675.3</altitud>
+            <distancia-salida unidades="kilómetros">75.9</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.5930</longitud>
+            <latitud unidades="grados">37.1688</latitud>
+            <altitud unidades="metros">670.2</altitud>
+            <distancia-salida unidades="kilómetros">76.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6013</longitud>
+            <latitud unidades="grados">37.1630</latitud>
+            <altitud unidades="metros">665.0</altitud>
+            <distancia-salida unidades="kilómetros">77.3</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <longitud unidades="grados">-3.6058</longitud>
+            <latitud unidades="grados">37.1701</latitud>
+            <altitud unidades="metros">665.8</altitud>
+            <distancia-salida unidades="kilómetros">78.1</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Sprint Intermedio</nombre-punto>
+            <longitud unidades="grados">-3.5946</longitud>
+            <latitud unidades="grados">37.1697</latitud>
+            <altitud unidades="metros">669.0</altitud>
+            <distancia-salida unidades="kilómetros">92.4</distancia-salida>
+        </punto-anon>
+        <punto-anon>
+            <nombre-punto>Meta</nombre-punto>
+            <longitud unidades="grados">-3.5931</longitud>
+            <latitud unidades="grados">37.1698</latitud>
+            <altitud unidades="metros">670.6</altitud>
+            <distancia-salida unidades="kilómetros">112.0</distancia-salida>
+        </punto-anon>
+    </puntos-anon>
+
+    <!-- Clasificación real de la Etapa 21 (Ganador: Tobias Halland Johannessen) -->
+    <clasificados-etapa>
+        <clasificado-etapa>
+            <nombre-clasificado>Tobias Halland Johannessen</nombre-clasificado>
+            <equipo>Uno-X Mobility</equipo>
+            <tiempo-clasificado>PT03H07M09S</tiempo-clasificado>
+        </clasificado-etapa>
+        <clasificado-etapa>
+            <nombre-clasificado>Kaden Groves</nombre-clasificado>
+            <equipo>Alpecin-Deceuninck</equipo>
+            <tiempo-clasificado>PT03H07M09S</tiempo-clasificado>
+            <diferencia-tiempo>PT00H00M00S</diferencia-tiempo>
+        </clasificado-etapa>
+        <clasificado-etapa>
+            <nombre-clasificado>Bryan Coquard</nombre-clasificado>
+            <equipo>Cofidis</equipo>
+            <tiempo-clasificado>PT03H07M09S</tiempo-clasificado>
+            <diferencia-tiempo>PT00H00M00S</diferencia-tiempo>
+        </clasificado-etapa>
+    </clasificados-etapa>
+
+    <!-- Clasificación General Final de La Vuelta 2026 (Podio definitivo) -->
+    <clasificados-general>
+        <clasificado-general>
+            <nombre-clasificado>Enric Mas</nombre-clasificado>
+            <equipo>Movistar Team</equipo>
+            <tiempo-clasificado>PT82H44M15S</tiempo-clasificado>
+        </clasificado-general>
+        <clasificado-general>
+            <nombre-clasificado>Primož Roglič</nombre-clasificado>
+            <equipo>Red Bull-BORA-hansgrohe</equipo>
+            <tiempo-clasificado>PT82H45M21S</tiempo-clasificado>
+            <diferencia-tiempo>PT00H01M06S</diferencia-tiempo>
+        </clasificado-general>
+        <clasificado-general>
+            <nombre-clasificado>Felix Gall</nombre-clasificado>
+            <equipo>Decathlon AG2R La Mondiale</equipo>
+            <tiempo-clasificado>PT82H46M28S</tiempo-clasificado>
+            <diferencia-tiempo>PT00H02M13S</diferencia-tiempo>
+        </clasificado-general>
+    </clasificados-general>
+
+    <!-- Clasificación por Equipos Final -->
+    <equipos>
+        <equipo-clasificacion>
+            <nombre-equipo>Decathlon AG2R La Mondiale</nombre-equipo>
+            <tiempo-equipo>PT247H35M12S</tiempo-equipo>
+        </equipo-clasificacion>
+        <equipo-clasificacion>
+            <nombre-equipo>Movistar Team</nombre-equipo>
+            <tiempo-equipo>PT247H41M20S</tiempo-equipo>
+            <diferencia-tiempo>PT00H06M08S</diferencia-tiempo>
+        </equipo-clasificacion>
+        <equipo-clasificacion>
+            <nombre-equipo>Red Bull-BORA-hansgrohe</nombre-equipo>
+            <tiempo-equipo>PT247H48M45S</tiempo-equipo>
+            <diferencia-tiempo>PT00H13M33S</diferencia-tiempo>
+        </equipo-clasificacion>
+    </equipos>
+
+</etapa>
